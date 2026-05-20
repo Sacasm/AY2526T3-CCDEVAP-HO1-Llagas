@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>plsplspls</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
+    <header id="top-header">
         <h1>Why Me :D</h1>
     </header>
 
@@ -15,49 +16,53 @@
         <a href="sellout.html">Why</a>
     </nav>
 
-    <main>
-        <section>
-            <h2>plsplspls</h2>
-            <p>Choose me because:</p>
-            <ul>
-                <li>
-                    Masipag <br>
-                    <audio controls src="yay.mp3">
-                        Your browser does not support the audio element.
-                    </audio>
-                </li>
-                <li>
-                    Responsive <br>
-                    <audio controls src="yay.mp3">
-                        Your browser does not support the audio element.
-                    </audio>
-                </li>
-                <li>
-                    Hopelessly Positive <br>
-                    <audio controls src="yay.mp3">
-                        Your browser does not support the audio element.
-                    </audio>
-                </li>
-                <li>
-                    Good Follower <br>
-                    <audio controls src="yay.mp3">
-                        Your browser does not support the audio element.
-                    </audio>
-                </li>
-                <li>
-                    Has initiative <br>
-                    <audio controls src="yay.mp3">
-                        Your browser does not support the audio element.
-                    </audio>
-                </li>
-            </ul>
+    <main class="single-column-layout">
+        <section class="content-box">
+            <h2>PLSPLSPLSPLS</h2>
+            <h3 class="section-subtitle">Choose me because...</h3>
+            <div class="split-section">
+                <div>
+                    <ul class="custom-list">
+                        <li>
+                            <div class="list-title">Masipag</div>
+                            <div>- follows the deadline; MIGHT cram</div>
+                            <audio controls src="yay.mp3"></audio>
+                        </li>
+                        <li>
+                            <div class="list-title">Responsive</div>
+                            <div>- chronically online; di ka dededmahin</div>
+                            <audio controls src="yay.mp3"></audio>
+                        </li>
+                        <li>
+                            <div class="list-title">Hopelessly Positive</div>
+                            <div>- stays positive kahit super sama na nung situation</div>
+                            <audio controls src="yay.mp3"></audio>
+                        </li>
+                        <li>
+                            <div class="list-title">Good Follower</div>
+                            <div>- will do what is asked of them no questions asked</div>
+                            <audio controls src="yay.mp3"></audio>
+                        </li>
+                        <li>
+                            <div class="list-title">Has initiative</div>
+                            <div>- kaya mag-initiate ng convo about sa need gawin</div>
+                            <audio controls src="yay.mp3"></audio>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video-container">
+                    <video width="250" controls>
+                        <source src="parkour.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <h2>Rate The Webpage</h2>
+        <section class="content-box rating-form">
             <form action="#" method="get">
                 <fieldset>
-                    <legend>Rate The Webpage:</legend>
+                    <legend>Rate Overall:</legend>
                     <input type="radio" id="rate1" name="rating" value="1">
                     <label for="rate1">1</label>
                     
@@ -73,9 +78,7 @@
                     <input type="radio" id="rate5" name="rating" value="5">
                     <label for="rate5">5</label>
                 </fieldset>
-                
-                <br>
-                
+
                 <fieldset>
                     <legend>Groupmate Worthy???</legend>
                     <input type="checkbox" id="yes-worthy" name="worthy" value="yes">
@@ -84,8 +87,7 @@
                     <input type="checkbox" id="no-worthy" name="worthy" value="no">
                     <label for="no-worthy">No D:</label>
                 </fieldset>
-                
-                <br><br>
+
                 <input type="submit" value="Submit Rating">
             </form>
         </section>
@@ -98,5 +100,8 @@
         </section>
     </main>
 
+    <footer id="page-footer">
+        <a href="#top-header">BACK TO TOP</a>
+    </footer>
 </body>
 </html>
