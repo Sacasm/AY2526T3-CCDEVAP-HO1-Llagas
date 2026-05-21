@@ -205,6 +205,6 @@ input[type="submit"]:hover {
 
 #page-footer a {
     text-decoration: none;
-    color: var(--text-dark);
+    color: var(--text-light);
     font-weight: bold;
 }
